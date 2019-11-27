@@ -4,8 +4,8 @@ practice the RESTFul API and Django
 # Features
   
 * **Manager**
-  *SignUp
-  *SignIn 
+  * SignUp
+  * SignIn 
 * **Client** 
   * Search
   * Add
