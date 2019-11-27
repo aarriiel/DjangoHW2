@@ -1,7 +1,7 @@
 # DjangoPractice
 practice the RESTFul API and Django
 
-##Features##
+# Features
   
 * **Manager**
   *SignUp
@@ -13,7 +13,7 @@ practice the RESTFul API and Django
   *Delete
 
 
-##RequireMent##
+# RequireMent
 * Django
 * Python
 * MySQL
