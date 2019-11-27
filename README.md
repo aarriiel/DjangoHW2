@@ -7,10 +7,10 @@ practice the RESTFul API and Django
   *SignUp
   *SignIn 
 * **Client** 
-  *Search
-  *Add
-  *Update
-  *Delete
+  * Search
+  * Add
+  * Update
+  * Delete
 
 
 # RequireMent
