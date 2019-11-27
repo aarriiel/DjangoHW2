@@ -1,18 +1,20 @@
-# DjangoHW2
+# DjangoPractice
 practice the RESTFul API and Django
 
-**Features**<br>
-
-<ul>
+##Features##
   
-<li>Manager SignUp/SignIn 
-<li>Client Search/Add/Update/Delete
-</ul>
+* **Manager**
+  *SignUp
+  *SignIn 
+* **Client** 
+  *Search
+  *Add
+  *Update
+  *Delete
 
-**RequireMent**
-<ul>
-<li>Django
-<li>Python
-<li>MySQL
-</ul>
+
+##RequireMent##
+* Django
+* Python
+* MySQL
 
