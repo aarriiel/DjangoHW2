@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>add</title>
+</head>
+<body>
+        If this Client Name is not exist, we will add the client dada.<br><br><br>
+
+        <form method="post">
+            <div class="form-group row">
+                <label for="name" class="col-sm-1 col-form-label">name</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="name" name="name" class="form-control" id="name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="sexual" class="col-sm-1 col-form-label">sexual</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="sexual" name="sexual" class="form-control" id="sexual" >
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="birthday" class="col-sm-1 col-form-label">birthday</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="birthday" name="birthday" class="form-control" id="birthday">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-1 col-form-label">email</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="email" name="email" class="form-control" id="email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="phone" class="col-sm-1 col-form-label">phone</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="phone" name="phone" class="form-control" id="phone">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="department" class="col-sm-1 col-form-label">department</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="department" name="department" class="form-control" id="department">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="description" class="col-sm-1 col-form-label">description</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="description" name="description" class="form-control" id="description">
+                </div>
+                <input type="submit" class="btn btn-primary mb-2" value="add" />
+            </div>
+        </form><br>
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button onclick="location.href='../search'" type="button" class="btn btn-secondary">Search</button>
+            <button onclick="location.href='../add'" type="button" class="btn btn-secondary">Add</button>
+            <button onclick="location.href='../delete'" type="button" class="btn btn-secondary">Delete</button>
+            <button onclick="location.href='../update'" type="button" class="btn btn-secondary">Update</button>
+        </div>
+</body>
+</html>

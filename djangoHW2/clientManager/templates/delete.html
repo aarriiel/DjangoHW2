@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>delete</title>
+</head>
+<body>
+        Input the Client Name and it will be Delete<br><br><br>
+
+        <form class="form-inline" method="post">
+            <div class="form-group mb-2">
+                <div>
+            <label for="name">Client Name:</label>
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+            <input type="text" class="form-control" name="name" value="" id="name">
+                </div>
+            <input type="submit" class="btn btn-primary mb-2" value="delete" />
+            </div>
+        </form><br>
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button onclick="location.href='../search'" type="button" class="btn btn-secondary">Search</button>
+            <button onclick="location.href='../add'" type="button" class="btn btn-secondary">Add</button>
+            <button onclick="location.href='../delete'" type="button" class="btn btn-secondary">Delete</button>
+            <button onclick="location.href='../update'" type="button" class="btn btn-secondary">Update</button>
+        </div>
+</body>
+</html>

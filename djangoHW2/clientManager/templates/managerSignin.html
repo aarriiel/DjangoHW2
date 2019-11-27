@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>SignIn</title>
+</head>
+<br>
+    <h1>SignIn</h1>
+    <form method="post">
+        <div class="form-group row">
+                <label for="username" class="col-sm-1 col-form-label">Username:</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="username" name="username" class="form-control" id="username">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-1 col-form-label">Password:</label>
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="password" name="password" class="form-control" id="password" >
+                </div>
+            </div>
+        <input class="btn btn-primary mb-2" type="submit" value="SignIn" />
+<!--        <button type="SUBMIT">SignIn</button>-->
+    </form><br>
+    <button class="btn btn-primary mb-2" onclick="location.href='../managerSignup'" type="button">
+         create manager account</button><br>
+    <h2>{{ alert }} </h2>
+</body>
+</html>
